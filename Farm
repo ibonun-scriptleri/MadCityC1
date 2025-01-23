@@ -9,7 +9,7 @@ wait(2)
 if _G.AutoRob == true then warn("Auto Rob already loaded.") return nil end
 
 _G.AutoRob = true
-queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ibonun-scriptleri/MadCity/refs/heads/main/Money-Farm'))()")
+queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/ibonun-scriptleri/MadCityC1/refs/heads/main/Farm'))()")
 
 for i = 1,100 do
    print("Edited by Axtor (dc iaxtorez#0) \n Credits To Axtor.")
